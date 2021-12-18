@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+#container{
+    display: flex;
+    width: 100%;
+}
+
+#contentA{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+}
+
+
+
+#plane{
+    position: absolute;
+    top: 1100px;
+    left: 250px;
+    width: 800px;
+    height: 800px;
+    animation-name: plane;
+    animation-timing-function: linear;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes plane{
+    from{
+        transform: translate(0px, 0px)
+    }
+    to{
+        transform: translate(-500px, -300px)
+    }
+}
+
+#TEDDY{
+    position: absolute;
+    left: 340px;
+    top: 480px;
+    color: rgb(29, 21, 21);
+    font-size: 9.0rem;
+    text-align: left;
+}
+
+
+#pig{
+    position: absolute;
+    top: -80px;
+    left: 300px;
+    width:1300px;
+    animation-name: pig;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pig{
+    from{
+        transform: translate(0px, 0px)
+    }
+    to{
+        transform: translate(-40px, 0px)
+    }
+}
+
+
+
+#bye{
+    position: absolute;
+    left: 345px;
+    top: 1200px;
+    color:black;
+    font-size: 4.5rem;
+    
+}
+
+#brain{
+    position: absolute;
+    top: 1750px;
+    left:400px;
+    width:1000px;
+    height: 1000px;
+}
+
+#brainwrite{
+    position: absolute;
+    top: 2000px;
+    left:50px;
+    font-size: 1.5rem;
+}
+
+
+#contentBContainer{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    
+}
+
+#benefit{
+    position: absolute;
+    left: 340px;
+    top: 480px;
+    color: rgb(29, 21, 21);
+    font-size: 9.0rem;
+    text-align: left;
+}
+
+#hi{
+    position: absolute;
+    left: 345px;
+    top: 1200px;
+    color: white;
+    font-size: 4.5rem;
+    
+}
+
+#magaphone{
+    position: absolute;
+    top: 800px;
+    left:750px;  
+}
+
+#benefit2{
+    position: absolute;
+    top: 2000px;
+    left: 50px;
+    color: white;
+    font-size: 9.0rem;
+    
+}
+
+#parade{
+    position: absolute;
+    top: 1300px;
+    left: 1100px;
+    width: 200px;   
+}
+
+#gonaked{
+    position: absolute;
+    top:  1500px;
+    left: 500px;
+    width: 1100px;  
+    animation-name: gonaked;
+    animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
+
+}
+
+#gonaked:hover {
+    transform: scale(1.1);
+    transform-origin: 0 100%;
+    transition: transform 1s;
+}
+
+#hii{
+    position: absolute;
+    top: 2730px;
+    left: 50px;
+    color: white;
+    font-size: 2.5rem;
+    
+}
+
+
+
+
+#contentB{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    
+}
+
+#brown{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+
+#second{
+    position: absolute;
+    top:  2500px;
+    left: 500px;
+    width: 1100px;  
+    animation-name: gonaked;
+    animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
+
+}
+
+#second:hover{
+    transform: scale(1.1);
+    transform-origin: 0 100%;
+    transition: transform 1s;
+}
+
+#th{
+    position: absolute;
+    top:  3700px;
+    left: 600px;
+    width: 900px;  
+    animation-name: gonaked;
+    animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
+
+}
+
+#th:hover{
+    transform: scale(1.1);
+    transform-origin: 0 100%;
+    transition: transform 1s;
+}
+
+
+
